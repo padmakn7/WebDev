@@ -1,0 +1,23 @@
+body{
+  text-align:center;
+}
+
+#num1, #num2{
+  border:none;
+  border-bottom:2px solid black;
+  width : 40px;
+  margin:10px;
+}
+
+button{
+  background-color: white;
+  padding:7px;
+  border:1px solid black;
+  margin:20px 5px;
+  font-weight: bold;
+}
+
+span{
+  border-bottom:2px solid black;
+}
+

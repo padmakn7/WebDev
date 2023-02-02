@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Meme Picker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+      <img src="images/pumpkin.png" alt="cat logo" class="cat-logo-img">
+      <div class="title">
+        <h2>Pumpkin's Purrfect...</h2>
+				<h1>Meme Picker</h1>
+      </div>
+    </div>  
+    </header>
+    <main>
+      <h3>Select Your Current Emotion</h3>
+      <div id="emotions-container">
+      </div>
+        <div>
+          <label for="gifs-only-option">Animated GIFs only</label>
+          <input type="checkbox" id="gifs-only-option"> <br>
+          <button id="get-image">Get Image</button>
+        </div>
+    </main>
+    <div class="meme-modal" id="meme-modal">
+      <button class="meme-modal-close-btn" id="meme-modal-close-btn">X</button>
+      <div id="meme-modal-inner"></div>
+		</div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+body{
+  text-align: center;
+  color:orange;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 15px;
+}
+
+
+h1{
+  transform: rotate(-0.05turn);
+}
+button{
+  color:white;
+  border:none;
+  background: orange;
+  font-family: inherit;
+  font-size: 18px;
+  padding:5px 15px;
+  border-radius:12px;
+  cursor: pointer;
+}
+
+#stage-el{
+  font-size: 50px;
+}

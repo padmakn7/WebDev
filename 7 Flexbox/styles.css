@@ -1,0 +1,26 @@
+.container {
+  border: 8px solid #016a26;
+  height: 260px;
+  /*
+  
+  justify-content: (horizontal axis), reverse in case of column flex direction
+  start, center, end, space-around, 
+  space-evenly, space-between
+  
+  align-items: (verical axis)
+  start, center, end
+  */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: start;  /* default value - stretch*/
+}
+
+.item {
+  width: 50px;
+  margin: 2px;
+  padding: 10px;
+  font-size: 50px;
+  border: 2px solid black;
+  background: linear-gradient(#14463d, #016a26);
+}

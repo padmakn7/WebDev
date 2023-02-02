@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Forms </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/NASA.png" alt="NASA Logo">
+    </header>
+    <main>
+      <section>
+        <form id="login-form">
+          <label for="astronautName">Astronaut Name 👩‍🚀</label>
+          <input type="text" id="astronautName" name="astronautName" placeholder="Neil Armstrong" required>
+
+          <label for="astronautEmail">Astronaut Email</label>
+          <input type="email" id="astronautEmail" name="astronautEmail" placeholder="n.armstrong@nasa.com">
+
+          <label for="astronautPassword">Password</label>
+          <input type="password" id="astronautPassword" name="astronautPassword" placeholder="*******">
+
+          <input class="submit-btn" type="submit">  <!-- <button type="submit"> submit </button>-->
+
+        </form>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+body{
+  text-align: center;
+}
+
+#apple-shelf{
+  height:30px;
+  width:400px;
+  background:lightcoral;
+  border-radius:7px;
+  margin:50px auto 20px;  
+}
+
+
+#orange-shelf{
+  height:30px;
+  width:400px;
+  background:lightsalmon;
+  border-radius:7px;
+  margin:10px auto;  
+}

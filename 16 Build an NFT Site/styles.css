@@ -1,0 +1,109 @@
+body{
+  font-size: 16px;
+  color: #2b283a;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+
+/* typography - all heading and p tags */
+
+h1{
+  margin:0;
+  color:whitesmoke;
+}
+h2{
+  margin:0;
+  padding:10px;
+}
+
+h3{
+  color: #d0aaff;
+  font-size: 20px;
+  margin:0;
+}
+
+p{
+  line-height: 23px;
+}
+
+/* links */
+
+a{
+  color:#ef5839;
+  text-decoration: underline dotted;
+}
+
+a:hover, a:active{
+  color: #d4b44c;
+}
+
+.btn-dark {
+  background:#5f29a3;
+  color:whitesmoke;
+} 
+
+.btn-mid{
+  background:whitesmoke;  
+  color:#5f29a3;
+}
+
+.btn-light{
+  background:#d0aaff;
+  color:#5f29a3;
+}
+.btn{
+  text-decoration: none;
+  padding:10px;
+  border-radius:5px;
+  display:inline-block;   /* for top/bottom padding/margin to exist on button use inline-block,  wont work on inline*/
+  margin:20px 0;
+}
+
+.btn:hover,
+.btn:active{
+  background-color: #f3e885;
+  color: #2b238a;
+}
+
+/*layout */
+
+.container{
+  width:620px;
+  margin:0 auto;
+}
+
+header{
+  background:#5f29a3;
+}
+
+header, section, footer, p strong{
+  padding:45px 0;
+}
+
+.section-two{
+  background: #5f29a3;
+  color:whitesmoke;
+}
+
+.feature-img{
+  width: 300px;
+  border-radius: 4.6px;
+}
+
+
+.section-two-img-wrapper-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.sneakers-img{
+  width:100%;
+}
+
+
+footer{
+  color:#5f29a3;
+  text-align: center;
+}

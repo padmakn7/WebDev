@@ -1,0 +1,29 @@
+body{
+  background-image: url("images/station.jpg");
+  background-size:cover;
+  text-align:center;
+
+}
+
+.btn{
+  border : none;
+  border-radius:3px;
+  padding:10px;
+  color:white;
+  font-weight:bold;
+  font-size: 15px;
+  margin-right:5px;
+}
+
+#incr-btn{
+  background:darkred;
+}
+
+#save-btn{ 
+  background: darkgreen;
+}
+
+#entries-el{
+  font-weight:bold;
+  font-size:20px;
+}
